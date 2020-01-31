@@ -42,7 +42,7 @@ int		main(int argc, char *argv[])
 			}
 			i++;
 		}
-		if (ft_strlen(argv[2]) == j)
+		if (ft_strlen(argv[1]) == j)
 		{
 			ft_putstr(argv[1]);
 		}
