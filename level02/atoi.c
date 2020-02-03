@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int		ft_atoi(char *str)
 {
 	int i;
@@ -20,11 +18,4 @@ int		ft_atoi(char *str)
 		i++;
 	}
 	return (res * sign);
-}
-
-int		main(void)
-{
-	char *val = "2376";
-	printf("%d", ft_atoi(val));
-	return (0);
 }
